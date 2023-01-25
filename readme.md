@@ -27,6 +27,17 @@ build with
 npm run build
 ```
 
+## ES module
+
+```JavaScript
+import * as mgrs from "https://code4fukui.github.io/mgrs/mgrs.js";
+
+const mgrsStr = "33UXP04";
+const point = mgrs.toPoint(mgrsStr);
+console.log(point);
+```
+
+## License
 
 Licensed under the MIT license except:
 
